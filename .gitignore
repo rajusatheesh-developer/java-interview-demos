@@ -1,0 +1,3 @@
+# Project exclude paths
+/java-se-demos/${project.build.directory}/classes/
+/java-se-demos/target/
