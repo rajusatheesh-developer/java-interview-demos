@@ -1,19 +1,17 @@
 package com.example.java.oops;
 
-public class MethodOverride
-{
+public class MethodOverride {
 
-        public void method(Object a)
-        {
-            System.out.println("object");
+    public void method(Object a) {
+        System.out.println("object");
 
-        }
+    }
 
-        public void method(String a)
-        {
-            System.out.println("string");
+    public void method(String a) {
+        System.out.println("string");
 
-        }
+    }
+
 
         public static void main(String[] args)
         {
@@ -24,3 +22,10 @@ public class MethodOverride
 
 
 }
+// ambigous method call
+
+//    public void method(Integer a)
+//    {
+//        System.out.println("integer");
+//
+//    }
